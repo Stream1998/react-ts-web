@@ -9,6 +9,14 @@
 	"settings": {
 		"react": {
 			"version": "detect"
+		},
+		"import/resolver": {
+			"alias": [
+				[
+					"@",
+					"./src"
+				]
+			]
 		}
 	},
 	"extends": [
